@@ -1,0 +1,16 @@
+body {
+    background-color: aqua;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+.character {
+    border: 2px solid black;
+    display: inline-block;
+    height: 400px;
+    width: 300px;
+    margin: 100px 50px;
+}
