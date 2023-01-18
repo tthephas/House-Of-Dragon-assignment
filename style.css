@@ -10,7 +10,7 @@ button {
     width: 200px;
 }
 h1 {
-    font-size: 48px;
+    font-size: 60px;
     text-align: center;
     color: white;
 }
@@ -22,6 +22,13 @@ h1 {
 #king {
     max-width: 300px;
     height: 475px;
+    position: relative;
+}
+#kingName {
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+    font-size: 30px;
 }
 #rhaenyra {
     max-width: 300px;
@@ -32,20 +39,58 @@ h1 {
     position: absolute;
     bottom: 0px;
     right: 50px;
+    font-size: 30px;
 }
 #alicent {
     max-width: 300px;
     height: 475px;
+    position: relative;
+}
+#alicentName {
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+    font-size: 30px;
 }
 #daemon {
     max-width: 300px;
     height: 475px;
+    position: relative;
+}
+#daemonName {
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+    font-size: 30px;
 }
 #laena {
     max-width: 300px;
     height: 475px;
+    position: relative;
+}
+#laenaName {
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+    font-size: 30px;
 }
 #laenor {
     max-width: 300px;
     height: 475px;
+    position: relative;
+}
+#laenorName {
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+    font-size: 30px;
+
+}
+.bioButton {
+    height: 40px;
+    width: 145px;
+}
+.statusButton {
+    height: 40px;
+    width: 145px;
 }
