@@ -17,9 +17,7 @@ h1 {
 .character {
     border: 2px solid white;
     display: inline-block;
-    height: 525px;
-    width: 425px;
-    margin: 75px 70px;    
+    margin: 75px 100px;    
 }
 #king {
     max-width: 300px;
@@ -28,6 +26,12 @@ h1 {
 #rhaenyra {
     max-width: 300px;
     height: 475px;
+    position: relative;
+}
+#rhaenyraName {
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
 }
 #alicent {
     max-width: 300px;
