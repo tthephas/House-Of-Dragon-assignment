@@ -89,8 +89,27 @@ h1 {
 .bioButton {
     height: 40px;
     width: 145px;
+    
 }
 .statusButton {
     height: 40px;
     width: 145px;
+    
 }
+
+.popupContainer {
+    border: 5px solid white;
+    height: 750px;
+    width: 750px;
+    position: fixed;
+    bottom: 100px;
+    left: 350px;
+}
+
+
+/* .popup {
+    border: 5px solid white;
+    height: 750px;
+    width: 750px;
+    
+} */
