@@ -7,9 +7,10 @@ html {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 80px;
     text-align: center;
     color: white;
+    font-family: 'MedievalSharp', cursive;
 }
 .character {
     border: 2px solid white;
@@ -129,11 +130,13 @@ h1 {
 #searchButton {
     height: 55px;
     width: 200px;
-    margin-left: 575px;
-    margin-right: 20px;
+    /* margin-left: 400px; */
+    /* margin-right: 20px; */
+    font-size: 24px;
 }
-#searchText {
-    color: white;
-    font-size: 40px;
+#searchForm {
+    height: 55px;
+    width: 200px;
+    margin-left: 750px;
 
 }

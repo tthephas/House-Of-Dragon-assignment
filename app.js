@@ -141,7 +141,7 @@ statusLaenor.addEventListener("click", addStatusLaenor)
 
 function addStatusLaenor() {
     document.getElementById('popup').style.display = 'block'
-    statusOrBio.innerHTML = "STATUS" + "<br />" + "<br />" + "<br />" +  "DECEASED"
+    statusOrBio.innerHTML = "STATUS" + "<br />" + "<br />" + "<br />" +  "ALIVE"
     popupText.innerHTML= ""
 }
 
