@@ -11,6 +11,14 @@ console.log('do something')
 // Need a close form function if i go that route to close the window.
 
 
+
+
+// Add an event listener, when DOM loads, run the game on an interval
+document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById("popup").style.display = "none"
+})
+
+// function to open up the bio/status page
 function openForm() {
     document.getElementById('popup').style.display = 'block'
 }
