@@ -84,6 +84,67 @@ function addStatusKing() {
     popupText.innerHTML= ""
 }
 
+//////////// DAEMON TARGARYEN ///////////////
+// Daemon BIO
+const bioDaemon = document.getElementById('bioDaemon') 
+bioDaemon.addEventListener("click", addBioDaemon)
+
+function addBioDaemon() {
+    document.getElementById('popup').style.display = 'block'
+    statusOrBio.innerHTML = "BIO"
+    popupText.innerHTML= "     Daemon was born as the second son of Prince Baelon Targaryen and his sister-wife, Princess Alyssa Targaryen, in 81 AC, during the reign of his grandfather, King Jaehaerys I Targaryen. He had one older brother, Viserys, as well as one younger brother, Aegon, who died in infancy.Within a fortnight of Daemon's birth, Alyssa took the child flying on Meleys. Daemon was free spirited and adventurous in his youth. Daemon was knighted at sixteen, and King Jaehaerys I Targaryen gave him Dark Sister. In 97 AC, Daemon married Lady Rhea Royce, the heir to Runestone, but he disliked both her and the Vale of Arryn; Daemon referred to his wife as his bronze bi***. During the Great Council of 101 AC, Daemon supported the claim of Prince Viserys, as it would make Daemon the heir after his brother. Daemon gathered a small army of sworn swords and men-at-arms when it was rumored that Lord Corlys Velaryon was readying a fleet to defend the rights of his son, Laenor Velaryon."
+}
+
+// Daemon STATUS
+const statusDaemon = document.getElementById('statusDaemon')
+statusDaemon.addEventListener("click", addStatusDaemon)
+
+function addStatusDaemon() {
+    document.getElementById('popup').style.display = 'block'
+    statusOrBio.innerHTML = "STATUS" + "<br />" + "<br />" + "<br />" +  "DECEASED"
+    popupText.innerHTML= ""
+}
+//////////// LAENA VELARYON ///////////////
+// Laena BIO
+const bioLaena = document.getElementById('bioLaena') 
+bioLaena.addEventListener("click", addBioLaena)
+
+function addBioLaena() {
+    document.getElementById('popup').style.display = 'block'
+    statusOrBio.innerHTML = "BIO"
+    popupText.innerHTML= "     Laena was born in late 92 AC. She was the daughter of Lord Corlys Velaryon and Princess Rhaenys Targaryen, and the great-granddaughter of King Jaehaerys I Targaryen. Princess Rhaenys's father, Prince Aemon Targaryen, the eldest son and heir of King Jaehaerys I, died shortly after Rhaenys learned she was pregnant. Although Rhaenys was Aemon's heir, Jaehaerys I named his second son, Prince Baelon, as his new heir, passing over Rhaenys and her potential unborn son. The unborn Laena, also referred to as the boy in the belly, was subject of much debate on the succession until her birth. In 101 AC, Laena's claim to the Iron Throne was put forward once more during the Great Council, but she was passed over, together with her mother, on account of her sex. By 105 AC, Laena had become a dragonrider by claiming the largest Targaryen dragon left alive, Vhagar. Following the death of Queen Aemma Arryn in late 105 AC, Grand Maester Runciter urged King Viserys I Targaryen to remarry and suggested the twelve-year-old Laena as a bride, so Viserys could heal the rift between House Targaryen and House Velaryon. Viserys married another noblewoman, however, and although this angered Laena's father, Laena herself was untroubled."
+}
+
+// Laena STATUS
+const statusLaena = document.getElementById('statusLaena')
+statusLaena.addEventListener("click", addStatusLaena)
+
+function addStatusLaena() {
+    document.getElementById('popup').style.display = 'block'
+    statusOrBio.innerHTML = "STATUS" + "<br />" + "<br />" + "<br />" +  "DECEASED"
+    popupText.innerHTML= ""
+}
+//////////// LAENOR VELARYON ///////////////
+// Laenor BIO
+const bioLaenor = document.getElementById('bioLaenor') 
+bioLaenor.addEventListener("click", addBioLaenor)
+
+function addBioLaenor() {
+    document.getElementById('popup').style.display = 'block'
+    statusOrBio.innerHTML = "BIO"
+    popupText.innerHTML= "     Laena was born in late 92 AC. She was the daughter of Lord Corlys Velaryon and Princess Rhaenys Targaryen, and the great-granddaughter of King Jaehaerys I Targaryen. Princess Rhaenys's father, Prince Aemon Targaryen, the eldest son and heir of King Jaehaerys I, died shortly after Rhaenys learned she was pregnant. Although Rhaenys was Aemon's heir, Jaehaerys I named his second son, Prince Baelon, as his new heir, passing over Rhaenys and her potential unborn son. The unborn Laena, also referred to as the boy in the belly, was subject of much debate on the succession until her birth. In 101 AC, Laena's claim to the Iron Throne was put forward once more during the Great Council, but she was passed over, together with her mother, on account of her sex. By 105 AC, Laena had become a dragonrider by claiming the largest Targaryen dragon left alive, Vhagar. Following the death of Queen Aemma Arryn in late 105 AC, Grand Maester Runciter urged King Viserys I Targaryen to remarry and suggested the twelve-year-old Laena as a bride, so Viserys could heal the rift between House Targaryen and House Velaryon. Viserys married another noblewoman, however, and although this angered Laena's father, Laena herself was untroubled."
+}
+
+// Laenor STATUS
+const statusLaenor = document.getElementById('statusLaenor')
+statusLaenor.addEventListener("click", addStatusLaenor)
+
+function addStatusLaenor() {
+    document.getElementById('popup').style.display = 'block'
+    statusOrBio.innerHTML = "STATUS" + "<br />" + "<br />" + "<br />" +  "DECEASED"
+    popupText.innerHTML= ""
+}
+
 
 
 
