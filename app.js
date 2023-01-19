@@ -11,9 +11,11 @@ console.log('do something')
 // Need a close form function if i go that route to close the window.
 
 
-
+function openForm() {
+    document.getElementById('popup').style.display = 'block'
+}
 
 // Function to attach to the close button on the pop up for bio/status
 function closeForm() {
-    document.getElementById("popup").style.display = "none";
+    document.getElementById("popup").style.display = "none"
 }

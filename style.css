@@ -5,10 +5,7 @@ html {
     -o-background-size: cover;
     background-size: cover;
 }
-button {
-    height: 50px;
-    width: 200px;
-}
+
 h1 {
     font-size: 60px;
     text-align: center;
@@ -128,3 +125,15 @@ h1 {
     width: 750px;
     
 } */
+
+#searchButton {
+    height: 55px;
+    width: 200px;
+    margin-left: 575px;
+    margin-right: 20px;
+}
+#searchText {
+    color: white;
+    font-size: 40px;
+
+}

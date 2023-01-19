@@ -11,15 +11,20 @@
     <h1>House of the Dragon</h1>
     
     <div>
-        <button></button>
+        <button id="searchButton">search</button><a id="searchText">SUBMIT</a>
     </div>
     <div>
-    <div class="character" id="rhaenyra"><img id="rhaenyra" src="rhaenyra.jpeg"><h1 id="rhaenyraName">Princess Rhaenyra</h1><button class="bioButton">Bio</button><button class="statusButton">Status</button></div>
-    <div class="character" id="alicent"><img id="alicent" src="alicent.webp"><h1 id="alicentName">Alicent Hightower</h1><button class="bioButton">Bio</button><button class="statusButton">Status</button></div>
-    <div class="character" id="king"><img id="king" src="king.webp"><h1 id="kingName">Viserys Trgaryen</h1><button class="bioButton">Bio</button><button class="statusButton">Status</button></div>
-    <div class="character" id="daemon"><img id="daemon" src="daemon.jpeg"><h1 id="daemonName">Daemon Targaryen</h1><button class="bioButton">Bio</button><button class="statusButton">Status</button></div>
-    <div class="character" id="laena"><img id="laena" src="laena.jpeg"><h1 id="laenaName">Laena Velaryon</h1><button class="bioButton">Bio</button><button class="statusButton">Status</button></div>
-    <div class="character" id="laenor"><img id="laenor" src="laenor.webp"><h1 id="laenorName">Laenor Velaryon</h1><button class="bioButton">Bio</button><button class="statusButton">Status</button></div>
+    <div class="character" id="rhaenyra"><img id="rhaenyra" src="rhaenyra.jpeg"><h1 id="rhaenyraName">Princess Rhaenyra</h1><button class="bioButton" onclick='openForm()'>Bio</button><button class="statusButton" onclick='openForm()'>Status</button></div>
+    
+    <div class="character" id="alicent"><img id="alicent" src="alicent.webp"><h1 id="alicentName">Alicent Hightower</h1><button class="bioButton" onclick='openForm()'>Bio</button><button class="statusButton" onclick='openForm()'>Status</button></div>
+    
+    <div class="character" id="king"><img id="king" src="king.webp"><h1 id="kingName">Viserys Trgaryen</h1><button class="bioButton" onclick='openForm()'>Bio</button><button class="statusButton" onclick='openForm()'>Status</button></div>
+    
+    <div class="character" id="daemon"><img id="daemon" src="daemon.jpeg"><h1 id="daemonName">Daemon Targaryen</h1><button class="bioButton" onclick='openForm()'>Bio</button><button class="statusButton" onclick='openForm()'>Status</button></div>
+    
+    <div class="character" id="laena"><img id="laena" src="laena.jpeg"><h1 id="laenaName">Laena Velaryon</h1><button class="bioButton" onclick='openForm()'>Bio</button><button class="statusButton" onclick='openForm()'>Status</button></div>
+    
+    <div class="character" id="laenor"><img id="laenor" src="laenor.webp"><h1 id="laenorName">Laenor Velaryon</h1><button class="bioButton" onclick='openForm()'>Bio</button><button class="statusButton" onclick='openForm()'>Status</button></div>
     
     <div class="popup" id="popup"><form class="popupContainer"><h1 id="bioOrStatus">BIO</h1><h3 id="popupText">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor magni ea perferendis numquam suscipit modi sunt magnam perspiciatis cupiditate voluptatibus et at, sint incidunt amet fuga dolorum tempore vero. Ipsum!</h3>
     <h3 id="closePopup" onclick='closeForm()'>CLOSE</h3></form></div>
