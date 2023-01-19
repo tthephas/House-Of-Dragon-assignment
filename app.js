@@ -9,3 +9,11 @@ console.log('do something')
 
 // Could possibly use ONE pop up window for EVERYONE. Whoever's button get clicked, that is the info that populates/shows on the display window.
 // Need a close form function if i go that route to close the window.
+
+
+
+
+// Function to attach to the close button on the pop up for bio/status
+function closeForm() {
+    document.getElementById("popup").style.display = "none";
+}

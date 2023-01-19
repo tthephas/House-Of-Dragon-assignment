@@ -104,14 +104,14 @@ h1 {
     position: fixed;
     bottom: 100px;
     left: 375px;
-    background-color: white;
+    background-color: grey;
 
 }
 #closePopup {
     background-color: rgb(147, 21, 21);
     color: rgb(218, 224, 34);
     position: relative;
-    top: 63%;
+    top: 55%;
     left: 40%;
     text-align: center;
     font-size: 25px;
