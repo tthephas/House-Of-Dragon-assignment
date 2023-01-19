@@ -98,12 +98,27 @@ h1 {
 }
 
 .popupContainer {
-    border: 5px solid white;
-    height: 750px;
-    width: 750px;
+    border: 2px solid white;
+    height: 650px;
+    width: 650px;
     position: fixed;
     bottom: 100px;
-    left: 350px;
+    left: 375px;
+    background-color: white;
+
+}
+#closePopup {
+    background-color: rgb(147, 21, 21);
+    color: rgb(218, 224, 34);
+    position: relative;
+    top: 63%;
+    left: 40%;
+    text-align: center;
+    font-size: 25px;
+    width: 130px;
+    border: 2px solid black;
+    cursor: pointer;
+    padding: 8px;
 }
 
 
