@@ -10,10 +10,24 @@
 <body>
     <h1>House of the Dragon Fan Page</h1>
     
-    <form>
+    <!-- <form>
         <input id="searchForm" placeholder="search..."/>
         <button id="searchButton">SEARCH</button>
-    </form>
+    </form> -->
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+        <div id="myDropdown" class="dropdown-content">
+          <input type="text" placeholder="Search.." id="searchForm" onkeyup="filterFunction()">
+          <a href="#about">About</a>
+          <a href="#base">Base</a>
+          <a href="#blog">Blog</a>
+          <a href="#contact">Contact</a>
+          <a href="#custom">Custom</a>
+          <a href="#support">Support</a>
+          <a href="#tools">Tools</a>
+        </div>
+      </div>
+    
     <div>
     <div class="character" id="rhaenyra"><img id="rhaenyra" src="rhaenyra.jpeg"><h1 id="rhaenyraName">Princess Rhaenyra</h1><button id="bioRhaenyra" class="bioButton">Bio</button><button id="statusRhaenyra" class="statusButton">Status</button></div>
     

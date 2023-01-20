@@ -1,4 +1,3 @@
-console.log('do something')
 
 // Need to create a few things
 // A pop up message for each Bio for each player
@@ -38,7 +37,7 @@ statusRhaenyra.addEventListener("click", addStatusRhaenyra)
 
 function addStatusRhaenyra() {
     document.getElementById('popup').style.display = 'block'
-    statusOrBio.innerHTML = "STATUS" + "<br />" + "<br />" + "<br />" +  "DECEASED"
+    statusOrBio.innerHTML = "STATUS" + "<br />"  + "<br />" +  "DECEASED"
     popupText.innerHTML= ""
 }
 //////////// ALICENT HIGHTOWER ///////////////
@@ -58,7 +57,7 @@ statusAlicent.addEventListener("click", addStatusAlicent)
 
 function addStatusAlicent() {
     document.getElementById('popup').style.display = 'block'
-    statusOrBio.innerHTML = "STATUS" + "<br />" + "<br />" + "<br />" +  "ALIVE"
+    statusOrBio.innerHTML = "STATUS" + "<br />"  + "<br />" +  "ALIVE"
     popupText.innerHTML= ""
 }
 
@@ -80,7 +79,7 @@ statusKing.addEventListener("click", addStatusKing)
 
 function addStatusKing() {
     document.getElementById('popup').style.display = 'block'
-    statusOrBio.innerHTML = "STATUS" + "<br />" + "<br />" + "<br />" +  "DECEASED"
+    statusOrBio.innerHTML = "STATUS" + "<br />"  + "<br />" +  "DECEASED"
     popupText.innerHTML= ""
 }
 
@@ -101,7 +100,7 @@ statusDaemon.addEventListener("click", addStatusDaemon)
 
 function addStatusDaemon() {
     document.getElementById('popup').style.display = 'block'
-    statusOrBio.innerHTML = "STATUS" + "<br />" + "<br />" + "<br />" +  "DECEASED"
+    statusOrBio.innerHTML = "STATUS" + "<br />"  + "<br />" +  "DECEASED"
     popupText.innerHTML= ""
 }
 //////////// LAENA VELARYON ///////////////
@@ -121,7 +120,7 @@ statusLaena.addEventListener("click", addStatusLaena)
 
 function addStatusLaena() {
     document.getElementById('popup').style.display = 'block'
-    statusOrBio.innerHTML = "STATUS" + "<br />" + "<br />" + "<br />" +  "DECEASED"
+    statusOrBio.innerHTML = "STATUS" + "<br />"  + "<br />" +  "DECEASED"
     popupText.innerHTML= ""
 }
 //////////// LAENOR VELARYON ///////////////
@@ -141,7 +140,7 @@ statusLaenor.addEventListener("click", addStatusLaenor)
 
 function addStatusLaenor() {
     document.getElementById('popup').style.display = 'block'
-    statusOrBio.innerHTML = "STATUS" + "<br />" + "<br />" + "<br />" +  "ALIVE"
+    statusOrBio.innerHTML = "STATUS" + "<br />" + "<br />" +  "ALIVE"
     popupText.innerHTML= ""
 }
 
