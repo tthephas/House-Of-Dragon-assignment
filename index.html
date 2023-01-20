@@ -14,26 +14,26 @@
         <input id="searchForm" placeholder="search..."/>
         <button id="searchButton">SEARCH</button>
     </form> -->
-    <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-        <div id="myDropdown" class="dropdown-content">
-          <input type="text" placeholder="Search.." id="searchForm" onkeyup="filterFunction()">
-          <a href="#about">About</a>
-          <a href="#base">Base</a>
-          <a href="#blog">Blog</a>
-          <a href="#contact">Contact</a>
-          <a href="#custom">Custom</a>
-          <a href="#support">Support</a>
-          <a href="#tools">Tools</a>
-        </div>
-      </div>
+
+    <div id="charSearch">
+        <p id="charSearch">Search for your favorite character</p>
+        <datalist id="suggestions" >
+            <option>Princess Rhaenyra</option>
+            <option>Alicent Hightower</option>
+            <option>Viserys Targaryen</option>
+            <option>Daemon Targaryen</option>
+            <option>Laena Velaryon</option>
+            <option>Laenor Velaryon</option>
+        </datalist>
+        <input  autoComplete="on" list="suggestions"/> 
+    </div>
     
     <div>
     <div class="character" id="rhaenyra"><img id="rhaenyra" src="rhaenyra.jpeg"><h1 id="rhaenyraName">Princess Rhaenyra</h1><button id="bioRhaenyra" class="bioButton">Bio</button><button id="statusRhaenyra" class="statusButton">Status</button></div>
     
     <div class="character" id="alicent"><img id="alicent" src="alicent.webp"><h1 id="alicentName">Alicent Hightower</h1><button id="bioAlicent" class="bioButton">Bio</button><button id="statusAlicent" class="statusButton">Status</button></div>
     
-    <div class="character" id="king"><img id="king" src="king.webp"><h1 id="kingName">Viserys Trgaryen</h1><button id="bioKing" class="bioButton">Bio</button><button id="statusKing" class="statusButton">Status</button></div>
+    <div class="character" id="king"><img id="king" src="king.webp"><h1 id="kingName">Viserys Targaryen</h1><button id="bioKing" class="bioButton">Bio</button><button id="statusKing" class="statusButton">Status</button></div>
     
     <div class="character" id="daemon"><img id="daemon" src="daemon.jpeg"><h1 id="daemonName">Daemon Targaryen</h1><button id="bioDaemon" class="bioButton">Bio</button><button id="statusDaemon" class="statusButton">Status</button></div>
     

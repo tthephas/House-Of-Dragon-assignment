@@ -120,23 +120,34 @@ h1 {
 }
 
 
-/* .popup {
+.popup {
     border: 5px solid white;
     height: 750px;
     width: 750px;
     
-} */
+} 
 
-#searchButton {
+/* #searchButton {
     height: 55px;
     width: 200px;
-    /* margin-left: 400px; */
-    /* margin-right: 20px; */
+    margin-left: 400px;
+    margin-right: 20px;
     font-size: 24px;
 }
 #searchForm {
     height: 55px;
     width: 200px;
     margin-left: 750px;
+
+} */
+
+#charSearch {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+#suggestions {
+    text-align: center;
 
 }
