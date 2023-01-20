@@ -144,6 +144,14 @@ function addStatusLaenor() {
     popupText.innerHTML= ""
 }
 
+// Not able to get this to work. trying to pull data from the data list to show or hide cards
+// Event listener for the search box
+let charChoice = document.getElementById('suggestions1').value
+
+if (charChoice === "Princess Rhaenyra") {
+    document.getElementById("rhaenyra").style.display = "none"
+}
+
 
 
 
